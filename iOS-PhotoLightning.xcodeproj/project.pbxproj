@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE54E721BA9945700ADBC9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE54E711BA9945700ADBC9A /* main.m */; };
+		ACE54E751BA9945700ADBC9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE54E741BA9945700ADBC9A /* AppDelegate.m */; };
+		ACE54E781BA9945700ADBC9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE54E771BA9945700ADBC9A /* ViewController.m */; };
+		ACE54E7B1BA9945700ADBC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE54E791BA9945700ADBC9A /* Main.storyboard */; };
+		ACE54E7E1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACE54E7C1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodeld */; };
+		ACE54E801BA9945700ADBC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE54E7F1BA9945700ADBC9A /* Assets.xcassets */; };
+		ACE54E831BA9945700ADBC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE54E811BA9945700ADBC9A /* LaunchScreen.storyboard */; };
+		ACE54E8E1BA9945700ADBC9A /* iOS_PhotoLightningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE54E8D1BA9945700ADBC9A /* iOS_PhotoLightningTests.m */; };
+		ACE54E991BA9945700ADBC9A /* iOS_PhotoLightningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE54E981BA9945700ADBC9A /* iOS_PhotoLightningUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE54E8A1BA9945700ADBC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE54E651BA9945700ADBC9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE54E6C1BA9945700ADBC9A;
+			remoteInfo = "iOS-PhotoLightning";
+		};
+		ACE54E951BA9945700ADBC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE54E651BA9945700ADBC9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE54E6C1BA9945700ADBC9A;
+			remoteInfo = "iOS-PhotoLightning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE54E6D1BA9945700ADBC9A /* iOS-PhotoLightning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-PhotoLightning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE54E711BA9945700ADBC9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACE54E731BA9945700ADBC9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACE54E741BA9945700ADBC9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACE54E761BA9945700ADBC9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACE54E771BA9945700ADBC9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACE54E7A1BA9945700ADBC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE54E7D1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_PhotoLightning.xcdatamodel; sourceTree = "<group>"; };
+		ACE54E7F1BA9945700ADBC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE54E821BA9945700ADBC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE54E841BA9945700ADBC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE54E891BA9945700ADBC9A /* iOS-PhotoLightningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-PhotoLightningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE54E8D1BA9945700ADBC9A /* iOS_PhotoLightningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PhotoLightningTests.m; sourceTree = "<group>"; };
+		ACE54E8F1BA9945700ADBC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE54E941BA9945700ADBC9A /* iOS-PhotoLightningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-PhotoLightningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE54E981BA9945700ADBC9A /* iOS_PhotoLightningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PhotoLightningUITests.m; sourceTree = "<group>"; };
+		ACE54E9A1BA9945700ADBC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE54E6A1BA9945700ADBC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE54E861BA9945700ADBC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE54E911BA9945700ADBC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE54E641BA9945700ADBC9A = {
+			isa = PBXGroup;
+			children = (
+				ACE54E6F1BA9945700ADBC9A /* iOS-PhotoLightning */,
+				ACE54E8C1BA9945700ADBC9A /* iOS-PhotoLightningTests */,
+				ACE54E971BA9945700ADBC9A /* iOS-PhotoLightningUITests */,
+				ACE54E6E1BA9945700ADBC9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE54E6E1BA9945700ADBC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE54E6D1BA9945700ADBC9A /* iOS-PhotoLightning.app */,
+				ACE54E891BA9945700ADBC9A /* iOS-PhotoLightningTests.xctest */,
+				ACE54E941BA9945700ADBC9A /* iOS-PhotoLightningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE54E6F1BA9945700ADBC9A /* iOS-PhotoLightning */ = {
+			isa = PBXGroup;
+			children = (
+				ACE54E731BA9945700ADBC9A /* AppDelegate.h */,
+				ACE54E741BA9945700ADBC9A /* AppDelegate.m */,
+				ACE54E761BA9945700ADBC9A /* ViewController.h */,
+				ACE54E771BA9945700ADBC9A /* ViewController.m */,
+				ACE54E791BA9945700ADBC9A /* Main.storyboard */,
+				ACE54E7F1BA9945700ADBC9A /* Assets.xcassets */,
+				ACE54E811BA9945700ADBC9A /* LaunchScreen.storyboard */,
+				ACE54E841BA9945700ADBC9A /* Info.plist */,
+				ACE54E7C1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodeld */,
+				ACE54E701BA9945700ADBC9A /* Supporting Files */,
+			);
+			path = "iOS-PhotoLightning";
+			sourceTree = "<group>";
+		};
+		ACE54E701BA9945700ADBC9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE54E711BA9945700ADBC9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE54E8C1BA9945700ADBC9A /* iOS-PhotoLightningTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE54E8D1BA9945700ADBC9A /* iOS_PhotoLightningTests.m */,
+				ACE54E8F1BA9945700ADBC9A /* Info.plist */,
+			);
+			path = "iOS-PhotoLightningTests";
+			sourceTree = "<group>";
+		};
+		ACE54E971BA9945700ADBC9A /* iOS-PhotoLightningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE54E981BA9945700ADBC9A /* iOS_PhotoLightningUITests.m */,
+				ACE54E9A1BA9945700ADBC9A /* Info.plist */,
+			);
+			path = "iOS-PhotoLightningUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE54E6C1BA9945700ADBC9A /* iOS-PhotoLightning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE54E9D1BA9945700ADBC9A /* Build configuration list for PBXNativeTarget "iOS-PhotoLightning" */;
+			buildPhases = (
+				ACE54E691BA9945700ADBC9A /* Sources */,
+				ACE54E6A1BA9945700ADBC9A /* Frameworks */,
+				ACE54E6B1BA9945700ADBC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-PhotoLightning";
+			productName = "iOS-PhotoLightning";
+			productReference = ACE54E6D1BA9945700ADBC9A /* iOS-PhotoLightning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE54E881BA9945700ADBC9A /* iOS-PhotoLightningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE54EA01BA9945700ADBC9A /* Build configuration list for PBXNativeTarget "iOS-PhotoLightningTests" */;
+			buildPhases = (
+				ACE54E851BA9945700ADBC9A /* Sources */,
+				ACE54E861BA9945700ADBC9A /* Frameworks */,
+				ACE54E871BA9945700ADBC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE54E8B1BA9945700ADBC9A /* PBXTargetDependency */,
+			);
+			name = "iOS-PhotoLightningTests";
+			productName = "iOS-PhotoLightningTests";
+			productReference = ACE54E891BA9945700ADBC9A /* iOS-PhotoLightningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACE54E931BA9945700ADBC9A /* iOS-PhotoLightningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE54EA31BA9945700ADBC9A /* Build configuration list for PBXNativeTarget "iOS-PhotoLightningUITests" */;
+			buildPhases = (
+				ACE54E901BA9945700ADBC9A /* Sources */,
+				ACE54E911BA9945700ADBC9A /* Frameworks */,
+				ACE54E921BA9945700ADBC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE54E961BA9945700ADBC9A /* PBXTargetDependency */,
+			);
+			name = "iOS-PhotoLightningUITests";
+			productName = "iOS-PhotoLightningUITests";
+			productReference = ACE54E941BA9945700ADBC9A /* iOS-PhotoLightningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE54E651BA9945700ADBC9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Bocamuchas;
+				TargetAttributes = {
+					ACE54E6C1BA9945700ADBC9A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					ACE54E881BA9945700ADBC9A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ACE54E6C1BA9945700ADBC9A;
+					};
+					ACE54E931BA9945700ADBC9A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ACE54E6C1BA9945700ADBC9A;
+					};
+				};
+			};
+			buildConfigurationList = ACE54E681BA9945700ADBC9A /* Build configuration list for PBXProject "iOS-PhotoLightning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE54E641BA9945700ADBC9A;
+			productRefGroup = ACE54E6E1BA9945700ADBC9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE54E6C1BA9945700ADBC9A /* iOS-PhotoLightning */,
+				ACE54E881BA9945700ADBC9A /* iOS-PhotoLightningTests */,
+				ACE54E931BA9945700ADBC9A /* iOS-PhotoLightningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE54E6B1BA9945700ADBC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE54E831BA9945700ADBC9A /* LaunchScreen.storyboard in Resources */,
+				ACE54E801BA9945700ADBC9A /* Assets.xcassets in Resources */,
+				ACE54E7B1BA9945700ADBC9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE54E871BA9945700ADBC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE54E921BA9945700ADBC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE54E691BA9945700ADBC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE54E781BA9945700ADBC9A /* ViewController.m in Sources */,
+				ACE54E751BA9945700ADBC9A /* AppDelegate.m in Sources */,
+				ACE54E721BA9945700ADBC9A /* main.m in Sources */,
+				ACE54E7E1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE54E851BA9945700ADBC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE54E8E1BA9945700ADBC9A /* iOS_PhotoLightningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE54E901BA9945700ADBC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE54E991BA9945700ADBC9A /* iOS_PhotoLightningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE54E8B1BA9945700ADBC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE54E6C1BA9945700ADBC9A /* iOS-PhotoLightning */;
+			targetProxy = ACE54E8A1BA9945700ADBC9A /* PBXContainerItemProxy */;
+		};
+		ACE54E961BA9945700ADBC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE54E6C1BA9945700ADBC9A /* iOS-PhotoLightning */;
+			targetProxy = ACE54E951BA9945700ADBC9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE54E791BA9945700ADBC9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE54E7A1BA9945700ADBC9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE54E811BA9945700ADBC9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE54E821BA9945700ADBC9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE54E9B1BA9945700ADBC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACE54E9C1BA9945700ADBC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE54E9E1BA9945700ADBC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-PhotoLightning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bocamuchas.emiliano.iOS-PhotoLightning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE54E9F1BA9945700ADBC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-PhotoLightning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bocamuchas.emiliano.iOS-PhotoLightning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACE54EA11BA9945700ADBC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-PhotoLightningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bocamuchas.emiliano.iOS-PhotoLightningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-PhotoLightning.app/iOS-PhotoLightning";
+			};
+			name = Debug;
+		};
+		ACE54EA21BA9945700ADBC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-PhotoLightningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bocamuchas.emiliano.iOS-PhotoLightningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-PhotoLightning.app/iOS-PhotoLightning";
+			};
+			name = Release;
+		};
+		ACE54EA41BA9945700ADBC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-PhotoLightningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bocamuchas.emiliano.iOS-PhotoLightningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-PhotoLightning";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACE54EA51BA9945700ADBC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-PhotoLightningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bocamuchas.emiliano.iOS-PhotoLightningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-PhotoLightning";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE54E681BA9945700ADBC9A /* Build configuration list for PBXProject "iOS-PhotoLightning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE54E9B1BA9945700ADBC9A /* Debug */,
+				ACE54E9C1BA9945700ADBC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE54E9D1BA9945700ADBC9A /* Build configuration list for PBXNativeTarget "iOS-PhotoLightning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE54E9E1BA9945700ADBC9A /* Debug */,
+				ACE54E9F1BA9945700ADBC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE54EA01BA9945700ADBC9A /* Build configuration list for PBXNativeTarget "iOS-PhotoLightningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE54EA11BA9945700ADBC9A /* Debug */,
+				ACE54EA21BA9945700ADBC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE54EA31BA9945700ADBC9A /* Build configuration list for PBXNativeTarget "iOS-PhotoLightningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE54EA41BA9945700ADBC9A /* Debug */,
+				ACE54EA51BA9945700ADBC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACE54E7C1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACE54E7D1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodel */,
+			);
+			currentVersion = ACE54E7D1BA9945700ADBC9A /* iOS_PhotoLightning.xcdatamodel */;
+			path = iOS_PhotoLightning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACE54E651BA9945700ADBC9A /* Project object */;
+}
