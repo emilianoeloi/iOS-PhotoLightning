@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *frontCameraView;
 @property (strong, nonatomic) IBOutlet UIImageView *backCameraView;
+@property (weak, nonatomic) IBOutlet UILabel *lightning;
 
 
 @end
@@ -53,7 +54,9 @@
     [super viewDidLoad];
     UIDeviceBatteryState currentState = [[UIDevice currentDevice] batteryState];
     if (currentState == UIDeviceBatteryStateCharging || currentState == UIDeviceBatteryStateFull) {
-        // The battery is either charging, or connected to a charger and is fully charged
+        _lightning.text = @"Lightning Connected";
+    }else{
+        _lightning.text = @"Lightning disconnected";
     }
 }
 

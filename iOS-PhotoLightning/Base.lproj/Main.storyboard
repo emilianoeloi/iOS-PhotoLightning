@@ -40,6 +40,7 @@
                     </view>
                     <connections>
                         <outlet property="frontCameraView" destination="3P8-XO-lZL" id="u56-pa-1yj"/>
+                        <outlet property="lightning" destination="xg6-YZ-lxl" id="enU-bD-tED"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
